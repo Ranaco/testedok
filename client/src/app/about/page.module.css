@@ -1,0 +1,129 @@
+/* about.module.css */
+
+.container {
+    font-family: "Roboto", sans-serif;
+    color: #e4e4e7;
+    background: #1e1e2f;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    color: #10b981;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  /* Features Section */
+  .features {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .features h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .featureCards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: #2a2a44;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .card p {
+    color: #c0c0c7;
+  }
+  
+  /* Team Section */
+  .team {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .team h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .teamGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .teamCard {
+    background: #2a2a44;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .teamCard img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .teamCard h3 {
+    font-size: 18px;
+    color: #ffffff;
+  }
+  
+  .teamCard p {
+    font-size: 14px;
+    color: #c0c0c7;
+  }
+  
+  /* Mission Section */
+  .mission {
+    text-align: center;
+    max-width: 760px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  
+  .mission h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #10b981;
+  }
+  
+  .mission p {
+    font-size: 18px;
+    color: #c0c0c7;
+  }
+  

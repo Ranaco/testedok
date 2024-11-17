@@ -1,0 +1,113 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background: #1e1e2f; /* Dark theme background */
+  color: #e4e4e7; /* Light text color */
+}
+
+.bounty-details {
+  flex: 1;
+  background: #2a2a44; /* Dark card background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  max-width: 50%;
+}
+
+.bounty-details h1 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #ffffff; /* White heading */
+}
+
+.bounty-details p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #c0c0c7; /* Muted text */
+}
+.bounty-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #b3b3b7; /* Light gray text */
+}
+
+.bounty-meta span {
+  margin-right: 10px;
+}
+
+
+.editor-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #2a2a44; /* Dark background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  max-width: 50%;
+}
+
+.editor-section h2 {
+  font-size: 22px;
+  color: #ffffff; /* White heading */
+  margin-bottom: 10px;
+}
+
+.CodeMirror {
+  background: #2e2e42 !important; /* Editor background */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.tests-section {
+  margin-top: 20px;
+  padding: 15px;
+  background: #2e2e42; /* Darker test section background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  color: #c0c0c7; /* Muted text color */
+}
+
+.tests-section h2 {
+  font-size: 18px;
+  color: #ffffff; /* White text */
+  margin-bottom: 10px;
+}
+
+.tests-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tests-section ul li {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #e4e4e7; /* Light text */
+  border-left: 3px solid #10b981; /* Green accent */
+  padding-left: 10px;
+}
+
+.countdown-container {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffd700; /* Gold color for countdown */
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.countdown-container span {
+  font-family: "Courier New", Courier, monospace; /* Digital clock font */
+  background: #2a2a44; /* Dark background for clock */
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5);
+}

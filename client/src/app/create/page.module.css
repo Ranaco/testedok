@@ -1,0 +1,43 @@
+/* addBountyForm.module.css */
+
+.container {
+    font-family: "Roboto", sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #1e1e2f;
+    color: #e4e4e7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  
+  .submitBtn {
+    padding: 12px 20px;
+    font-size: 16px;
+    background: #10b981;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .submitBtn:hover {
+    background: #059669;
+  }
+  

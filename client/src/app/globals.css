@@ -1,0 +1,174 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* General Body Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #1e1e2f; /* Dark background */
+  color: #e4e4e7; /* Light text color */
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+  color: #10b981;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #10b981;
+}
+
+label {
+  font-size: 14px;
+  color: #c0c0c7;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #2a2a44;
+  border-radius: 5px;
+  background: #2a2a44;
+  color: #e4e4e7;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #10b981;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+/* Container for full-width layout */
+.container {
+  width: 100% !important;
+  min-width: 100% !important;
+  max-width: auto !important;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #252539; /* Dark navbar */
+  color: #e4e4e7; /* Light text */
+}
+
+.navbar .logo {
+  height: 40px;
+  filter: invert(1);
+}
+
+.navbar .menu {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .menu a {
+  color: #e4e4e7; /* Light text color */
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar .menu a:hover {
+  color: #10b981; /* Accent color on hover */
+}
+
+.navbar .connect-btn {
+  background: #10b981; /* Green accent for connect button */
+  color: #ffffff; /* White text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar .connect-btn:hover {
+  background: #059669; /* Darker green for hover */
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #2a2a72, #009ffd); /* Gradient remains */
+  color: #ffffff; /* Light text */
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.hero p {
+  margin: 10px 0 0;
+  font-size: 18px;
+}
+
+/* Bounty List Grid */
+.bounty-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Individual Bounty Card */
+.bounty-card {
+  background: #2a2a44; /* Dark card background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Slight shadow for depth */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bounty-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7); /* Deeper shadow on hover */
+}
+
+.bounty-card h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: #ffffff; /* White text */
+}
+
+.bounty-card p {
+  font-size: 14px;
+  color: #c0c0c7; /* Muted light text */
+}
+
+/* Bounty Info Section */
+.bounty-info {
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #b3b3b7; /* Light gray text */
+}
+
+/* Claim Button */
+.claim-btn {
+  background: #10b981; /* Green accent */
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.claim-btn:hover {
+  background: #059669; /* Darker green on hover */
+}
